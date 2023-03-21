@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+  
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+
+  .btn-green {
+    @apply bg-teal-300 text-gray-900 border-2
+     border-teal-500 mr-3 px-5 py-2 mb-4 rounded-full
+      hover:bg-teal-200 focus:ring-4 focus:ring-teal-200 
+      focus:outline-none active:bg-teal-400 
+  }
+
+  .btn-blue {
+    @apply bg-sky-300 text-gray-900 border-2
+     border-sky-500 mr-3 px-5 py-2 mb-4 rounded-full
+      hover:bg-sky-200 focus:ring-4 focus:ring-sky-200 
+      focus:outline-none active:bg-sky-400 
+  }
+
+  .btn-gray {
+    @apply bg-gray-100 text-gray-900 border-2
+     border-gray-500 mr-3 px-5 py-2 mb-4 rounded-full
+      hover:bg-gray-200 focus:ring-4 focus:ring-gray-200 
+      focus:outline-none active:bg-gray-400 
+  }
+
+  .btn-red {
+    @apply bg-white text-gray-900 border-2
+     border-red-500 mr-3 px-5 py-2 mb-4 rounded-full
+      hover:bg-red-400 focus:ring-4 focus:ring-red-200 
+      focus:outline-none active:bg-red-400 hover:text-white
+  }
+
+  .btn-red-tags {
+    @apply bg-red-50 text-gray-900 border-2
+     border-red-400 px-3 py-1 rounded-lg
+      hover:bg-red-100 focus:ring-4 focus:ring-red-200 
+      focus:outline-none active:bg-red-400 
+  }
+
+}
