@@ -118,13 +118,13 @@ export function NoteList({ availableTags, notes, onUpdateTag, onDeleteTag }: Not
                 onDeleteTag={onDeleteTag}
                 />
         </div>
-        <div className="animate-blob animation-delay-2000
+        <div className="pointer-events-none animate-blob animation-delay-2000
                  filter blur-xl mix-blend-multiply absolute top-16 left-20 bg-sky-300 rounded-full
                  md:w-36 md:h-36  w-16 h-16">
                 </div>
-                <div className="animate-blob animation-delay-4000 filter blur-xl mix-blend-multiply absolute -bottom-12 left-20 w-64 h-64 bg-teal-300 rounded-full hidden md:block">
+                <div className="pointer-events-none animate-blob animation-delay-4000 filter blur-xl mix-blend-multiply absolute -bottom-12 left-20 w-64 h-64 bg-teal-300 rounded-full hidden md:block">
                 </div>
-                <div className="animate-blob animation-delay-2000 filter blur-xl mix-blend-multiply absolute -bottom-12 right-14 lg:w-80 lg:h-80 w-36 h-36 bg-green-300 rounded-full hidden md:block">
+                <div className="pointer-events-none animate-blob animation-delay-2000 filter blur-xl mix-blend-multiply absolute -bottom-12 right-14 lg:w-80 lg:h-80 w-36 h-36 bg-green-300 rounded-full hidden md:block">
                 </div>
         </div>
     )

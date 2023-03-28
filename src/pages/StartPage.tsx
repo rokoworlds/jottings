@@ -8,11 +8,11 @@ export default function StartPage() {
         <>    
         <div className="bg-gray-50 min-h-screen flex items-center justify-center px-16">
             <div className="relative w-full max-w-lg">
-                <div className="animate-blob filter blur-xl mix-blend-multiply absolute top-0 -left-4 w-72 h-72 bg-teal-300 rounded-full">
+                <div className="pointer-events-none animate-blob filter blur-xl mix-blend-multiply absolute top-0 -left-4 w-72 h-72 bg-teal-300 rounded-full">
                 </div>
-                <div className="animate-blob animation-delay-2000 filter blur-xl mix-blend-multiply absolute top-0 -right-4 w-72 h-72 bg-green-300 rounded-full">
+                <div className="pointer-events-none animate-blob animation-delay-2000 filter blur-xl mix-blend-multiply absolute top-0 -right-4 w-72 h-72 bg-green-300 rounded-full">
                 </div>
-                <div className="animate-blob animation-delay-4000 filter blur-xl mix-blend-multiply absolute -bottom-16 left-20 w-72 h-72 bg-sky-300 rounded-full">
+                <div className="pointer-events-none animate-blob animation-delay-4000 filter blur-xl mix-blend-multiply absolute -bottom-16 left-20 w-72 h-72 bg-sky-300 rounded-full">
                 </div>
                 <div className="m-8 relative space-y-4">
       <div className="p-5 bg-white shadow-lg shadow-teal-200 rounded-lg flex font-sora items-center justify-center">
@@ -27,7 +27,6 @@ export default function StartPage() {
           </div>
           <div className="text-sm font-mono text-center p-3 mb-6 text-gray-500">
             <p > Jottings:</p>
-            <p>/ˈdʒɒt.ɪŋz/</p>
             <p >quickly written short notes</p>
           </div>
           <Link to='/new'>
